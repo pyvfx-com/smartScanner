@@ -4,7 +4,7 @@ import numpy as np
 import cv2
 from PIL import Image
 
-url = "http://192.168.0.137:8080/shot.jpg"
+url = "http://localhost:8080/shot.jpg"
 
 while True:
     img = request.urlopen(url)
